@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.hanliang</groupId>
+    <artifactId>demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>demo-rpc</artifactId>
+  <name>demo-rpc</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+  		<dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>4.11</version>
+           <scope>test</scope>
+       </dependency>
+
+       <!-- Netty -->
+       <dependency>
+           <groupId>io.netty</groupId>
+           <artifactId>netty-all</artifactId>
+           <version>4.0.24.Final</version>
+       </dependency>
+
+       <!-- Protostuff -->
+       <dependency>
+           <groupId>com.dyuproject.protostuff</groupId>
+           <artifactId>protostuff-core</artifactId>
+           <version>1.0.8</version>
+       </dependency>
+       <dependency>
+           <groupId>com.dyuproject.protostuff</groupId>
+           <artifactId>protostuff-runtime</artifactId>
+           <version>1.0.8</version>
+       </dependency>
+
+       <!-- Apache Commons Collections -->
+       <dependency>
+           <groupId>org.apache.commons</groupId>
+           <artifactId>commons-collections4</artifactId>
+           <version>4.0</version>
+       </dependency>
+
+       <!-- Objenesis -->
+       <dependency>
+           <groupId>org.objenesis</groupId>
+           <artifactId>objenesis</artifactId>
+           <version>2.1</version>
+       </dependency>
+
+       <!-- CGLib -->
+       <dependency>
+           <groupId>cglib</groupId>
+           <artifactId>cglib</artifactId>
+           <version>3.1</version>
+       </dependency>
+       
+       <dependency>
+    <groupId>org.apache.thrift</groupId>
+    <artifactId>libthrift</artifactId>
+    <version>0.10.0</version>
+</dependency>
+  </dependencies>
+</project>
